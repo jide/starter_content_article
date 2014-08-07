@@ -31,7 +31,7 @@ function starter_content_article_field_default_field_instances() {
           'trim_length' => 600,
         ),
         'type' => 'text_summary_or_trimmed',
-        'weight' => 2,
+        'weight' => 3,
       ),
     ),
     'entity_type' => 'node',
