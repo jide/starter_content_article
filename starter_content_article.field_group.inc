@@ -26,6 +26,7 @@ function starter_content_article_field_group_info() {
       0 => 'body',
       1 => 'field_image',
       2 => 'title',
+      3 => 'field_tags',
     ),
     'format_type' => 'tab',
     'format_settings' => array(

@@ -34,11 +34,17 @@ function starter_content_article_strongarm() {
       'revision' => array(
         'custom_settings' => FALSE,
       ),
+      'mini' => array(
+        'custom_settings' => FALSE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(
         'title' => array(
           'weight' => '1',
+        ),
+        'path' => array(
+          'weight' => '30',
         ),
       ),
       'display' => array(),
