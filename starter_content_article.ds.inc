@@ -54,12 +54,16 @@ function starter_content_article_ds_layout_settings_info() {
   $ds_layout->settings = array(
     'regions' => array(
       'central' => array(
-        0 => 'field_image',
-        1 => 'body',
-        2 => 'field_tags',
+        0 => 'title_field',
+        1 => 'post_date',
+        2 => 'field_image',
+        3 => 'body',
+        4 => 'field_tags',
       ),
     ),
     'fields' => array(
+      'title_field' => 'central',
+      'post_date' => 'central',
       'field_image' => 'central',
       'body' => 'central',
       'field_tags' => 'central',
